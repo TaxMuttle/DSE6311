@@ -1,0 +1,19 @@
+{
+  "LogisticRegression": {
+    "model__C": 0.1,
+    "model__penalty": "l2"
+  },
+  "RandomForest": {
+    "model__n_estimators": 150,
+    "model__min_samples_leaf": 4,
+    "model__max_features": 0.5,
+    "model__max_depth": null,
+    "model__class_weight": null
+  },
+  "GradientBoosting": {
+    "model__subsample": 1.0,
+    "model__n_estimators": 150,
+    "model__max_depth": 2,
+    "model__learning_rate": 0.1
+  }
+}
