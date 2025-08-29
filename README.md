@@ -16,4 +16,4 @@ Prediction:
 A machine learning classifier or regression model will show that the above features are significantly and positively associated with a greater percentage-point reduction in fossil fuel energy share over the past decade, compared to other states.
 
 Custom Function:
-One custom function that was created was the build_preprocessor function. It creates a preprocessing pipeline for machine learning models. It applies standard scaling to numeric features and one-hot encoding to categorical features (ignoring unknown categories). The function returns a ColumnTransformer that can be directly integrated into scikit-learn pipelines
+One custom function that was created was the build_preprocessor function in the Eval_Interpretation_Pipeline. It creates a preprocessing pipeline for machine learning models. It applies standard scaling to numeric features and one-hot encoding to categorical features (ignoring unknown categories). The function returns a ColumnTransformer that can be directly integrated into scikit-learn pipelines
